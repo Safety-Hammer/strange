@@ -43,7 +43,7 @@ var Lock = function () {
         this.dom.lock.classList.add('verified');
         this.dom.status.textContent = 'UNLOCKED';
         this.sounds.success.play();
-          window.setTimeout("window.location='https://safety-hammer.github.io/SafetyHammer.github.io/'",2000);
+          window.setTimeout("window.location='https://safety-hammer.github.io/SafetyHammer.github.io/b.html'",2000);
       } else {
         this.dom.lock.classList.remove('verified');
         this.dom.status.textContent = 'LOCKED';

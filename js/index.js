@@ -43,7 +43,7 @@ var Lock = function () {
         this.dom.lock.classList.add('verified');
         this.dom.status.textContent = 'UNLOCKED';
         this.sounds.success.play();
-        //alert("https://safety-hammer.github.io/SafetyHammer.github.io/b.html");
+        alert("你不是[主教]，，，但你为什么会找到密码？！");
           window.setTimeout("window.location='https://safety-hammer.github.io/SafetyHammer.github.io/b.html'",2000);
       } else {
         this.dom.lock.classList.remove('verified');
